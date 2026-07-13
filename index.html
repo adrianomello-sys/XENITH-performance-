@@ -3,359 +3,220 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>XENITH | Performance. Precision. Legacy.</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
     <script src="script.js" defer></script>
 </head>
+
 <body>
 
-    <header class="main-header">
-        <div class="header-container">
-            <a href="#hero" class="logo-link" aria-label="XENITH Home">
-                <span class="logo-text">XENITH</span>
-            </a>
+<header>
+    <nav class="navbar">
 
-            <nav class="main-navigation" aria-label="Navegação Principal">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#manifesto" class="nav-link">Manifesto</a></li>
-                    <li class="nav-item"><a href="#destaques" class="nav-link">Modelos</a></li>
-                    <li class="nav-item"><a href="#limited-editions" class="nav-link">Limited Editions</a></li>
-                    <li class="nav-item"><a href="#premium-editions" class="nav-link">Premium Editions</a></li>
-                    <li class="nav-item"><a href="#speed-series" class="nav-link">Speed Series</a></li>
-                    <li class="nav-item"><a href="#galeria" class="nav-link">Galeria</a></li>
-                    <li class="nav-item"><a href="#noticias" class="nav-link">Notícias</a></li>
-                    <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
-                </ul>
-            </nav>
-
-            <div class="header-actions">
-                <a href="#contato" class="btn-primary-small">Solicitar Atendimento</a>
-            </div>
+        <div class="logo">
+            XENITH
+            <span>AUTOMOTIVE</span>
         </div>
-    </header>
 
-    <main class="main-content">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#models">Modelos</a></li>
+            <li><a href="#legacy">Legado</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
 
-        <section id="hero" class="hero-section">
-            <div class="hero-media-container">
-                <div class="hero-media-placeholder"></div>
-            </div>
-            <div class="hero-content">
-                <h1 class="hero-title">XENITH</h1>
-                <p class="hero-slogan">Performance. Precision. Legacy.</p>
-                <p class="hero-description">
-                    Uma fabricante boutique de carros exclusivos. Não buscamos produzir milhares de veículos. Buscamos criar obras de arte inesquecíveis sobre rodas.
-                </p>
-                <div class="hero-actions">
-                    <a href="#collections" class="btn-explore">Explorar Coleção</a>
-                </div>
-            </div>
-        </section>
+    </nav>
+</header>
 
-        <section id="manifesto" class="manifesto-section">
-            <div class="section-container">
-                <header class="section-header">
-                    <p class="section-subtitle">Nossa Essência</p>
-                    <h2 class="section-title">O Manifesto XENITH</h2>
-                </header>
-                <div class="manifesto-content">
-                    <article class="manifesto-text-block">
-                        <h3>A Busca pela Perfeição Absoluta</h3>
-                        <p>
-                            Para nós, um carro não é apenas um meio de transporte. É uma extensão da ambição humana, uma escultura dinâmica projetada para desafiar o vento e as leis da física. Na XENITH (pronuncia-se ZÊ-nit), cada parafuso é colocado com propósito, cada curva é esculpida com paixão e cada ronco de motor é afinado como uma sinfonia.
-                        </p>
-                    </article>
-                    <article class="manifesto-text-block">
-                        <h3>Legado em Cada Detalhe</h3>
-                        <p>
-                            Nossos veículos são raridades destinadas a colecionadores e entusiastas que entendem que o verdadeiro luxo reside na exclusividade e na engenharia intransigente. Nós não competimos por números de vendas em massa; nós competimos pela imortalidade automotiva.
-                        </p>
-                    </article>
-                </div>
-            </div>
-        </section>
 
-        <section id="destaques" class="featured-models-section">
-            <div class="section-container">
-                <header class="section-header">
-                    <p class="section-subtitle">Engenharia Suprema</p>
-                    <h2 class="section-title">Modelos em Destaque</h2>
-                </header>
+<main>
 
-                <div class="grid-container models-grid">
-                    <article class="model-card" id="card-featured-spirit">
-                        <figure class="model-figure">
-                            <div class="image-placeholder"></div>
-                            <figcaption class="sr-only">XENITH Spirit em movimento</figcaption>
-                        </figure>
-                        <div class="model-info">
-                            <h3 class="model-name">Spirit</h3>
-                            <p class="model-category">Limited Edition</p>
-                            <p class="model-description">
-                                A personificação da agilidade e da conexão pura entre o piloto e a pista. Leveza extrema com potência colossal.
-                            </p>
-                            <a href="#spirit-details" class="btn-model">Ver Modelo</a>
-                        </div>
-                    </article>
 
-                    <article class="model-card" id="card-featured-vanguard">
-                        <figure class="model-figure">
-                            <div class="image-placeholder"></div>
-                            <figcaption class="sr-only">XENITH Vanguard vista frontal</figcaption>
-                        </figure>
-                        <div class="model-info">
-                            <h3 class="model-name">Vanguard</h3>
-                            <p class="model-category">Limited Edition</p>
-                            <p class="model-description">
-                                Pioneirismo tecnológico aliado a um design aerodinâmico revolucionário. O futuro da velocidade, hoje.
-                            </p>
-                            <a href="#vanguard-details" class="btn-model">Ver Modelo</a>
-                        </div>
-                    </article>
+<section class="hero">
 
-                    <article class="model-card" id="card-featured-gold">
-                        <figure class="model-figure">
-                            <div class="image-placeholder"></div>
-                            <figcaption class="sr-only">XENITH Gold perfil lateral</figcaption>
-                        </figure>
-                        <div class="model-info">
-                            <h3 class="model-name">Gold</h3>
-                            <p class="model-category">Premium Edition</p>
-                            <p class="model-description">
-                                O ápice do luxo e do refinamento artesanal. Detalhes em materiais nobres e conforto dinâmico inigualável.
-                            </p>
-                            <a href="#gold-details" class="btn-model">Ver Modelo</a>
-                        </div>
-                    </article>
+    <div class="hero-overlay"></div>
 
-                    <article class="model-card" id="card-featured-diamond">
-                        <figure class="model-figure">
-                            <div class="image-placeholder"></div>
-                            <figcaption class="sr-only">XENITH Diamond em estúdio</figcaption>
-                        </figure>
-                        <div class="model-info">
-                            <h3 class="model-name">Diamond</h3>
-                            <p class="model-category">Premium Edition</p>
-                            <p class="model-description">
-                                Lapidado para a perfeição estrutural. Uma joia da engenharia mecânica com performance avassaladora.
-                            </p>
-                            <a href="#diamond-details" class="btn-model">Ver Modelo</a>
-                        </div>
-                    </article>
+    <div class="hero-content">
 
-                    <article class="model-card" id="card-featured-turquoise">
-                        <figure class="model-figure">
-                            <div class="image-placeholder"></div>
-                            <figcaption class="sr-only">XENITH Turquoise vista traseira</figcaption>
-                        </figure>
-                        <div class="model-info">
-                            <h3 class="model-name">Turquoise</h3>
-                            <p class="model-category">Premium Edition</p>
-                            <p class="model-description">
-                                Inspirado na fluidez e na cor das águas mais profundas. Elegância fluida e presença imponente.
-                            </p>
-                            <a href="#turquoise-details" class="btn-model">Ver Modelo</a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
+        <p class="small-title">
+            THE ART OF AUTOMOTIVE ENGINEERING
+        </p>
 
-        <section id="collections" class="collections-section">
-            <div class="section-container">
-                <header class="section-header">
-                    <p class="section-subtitle">Nossos Pilares</p>
-                    <h2 class="section-title">As Linhas XENITH</h2>
-                </header>
+        <h1>
+            XENITH
+        </h1>
 
-                <div class="grid-container collections-grid">
-                    <article class="collection-card" id="collection-performance">
-                        <div class="collection-content">
-                            <h3 class="collection-name">Performance Series</h3>
-                            <p class="collection-tagline">Dinâmica de pista para as ruas.</p>
-                            <p class="collection-description">
-                                Veículos focados em feedback puro, curvas de torque otimizadas e uma experiência visceral de pilotagem.
-                            </p>
-                            <a href="#performance-series" class="btn-collection">Ver Coleção</a>
-                        </div>
-                    </article>
+        <h2>
+            Performance. Precision. Legacy.
+        </h2>
 
-                    <article class="collection-card" id="collection-limited">
-                        <div class="collection-content">
-                            <h3 class="collection-name">Limited Editions</h3>
-                            <p class="collection-tagline">Raridades numeradas para colecionadores.</p>
-                            <p class="collection-description">
-                                Projetos de tiragem extremamente restrita, criados para marcar épocas e estabelecer novos recordes históricos.
-                            </p>
-                            <a href="#limited-editions" class="btn-collection">Ver Coleção</a>
-                        </div>
-                    </article>
+        <p>
+            Onde engenharia extrema encontra a arte automotiva.
+            Criamos máquinas exclusivas para aqueles que buscam
+            algo além da velocidade.
+        </p>
 
-                    <article class="collection-card" id="collection-premium">
-                        <div class="collection-content">
-                            <h3 class="collection-name">Premium Editions</h3>
-                            <p class="collection-tagline">O auge da sofisticação e personalização.</p>
-                            <p class="collection-description">
-                                Acabamento sob medida, materiais raros e tecnologia de ponta para quem exige o mais alto padrão de exclusividade.
-                            </p>
-                            <a href="#premium-editions" class="btn-collection">Ver Coleção</a>
-                        </div>
-                    </article>
+        <button>
+            Explorar Coleção
+        </button>
 
-                    <article class="collection-card" id="collection-speed">
-                        <div class="collection-content">
-                            <h3 class="collection-name">Speed Series</h3>
-                            <p class="collection-tagline">A obsessão pela velocidade terminal.</p>
-                            <p class="collection-description">
-                                Hipercarros criados com um único propósito: desafiar as barreiras da velocidade máxima e física aerodinâmica.
-                            </p>
-                            <a href="#speed-series" class="btn-collection">Ver Coleção</a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
+    </div>
 
-        <section id="premium-editions" class="premium-editions-section">
-            <div class="section-container">
-                <header class="section-header">
-                    <p class="section-subtitle">Exclusividade sem Limites</p>
-                    <h2 class="section-title">Premium Editions</h2>
-                </header>
+</section>
 
-                <div class="grid-container premium-grid">
-                    <article class="premium-item-card">
-                        <figure class="premium-figure">
-                            <div class="image-placeholder"></div>
-                        </figure>
-                        <div class="premium-details">
-                            <h3 class="premium-item-title">Gold</h3>
-                            <p class="premium-item-spec">V12 Bi-Turbo | 950 cv</p>
-                            <p class="premium-item-description">
-                                O clássico moderno. Um interior revestido em materiais nobres, folheados a ouro nos detalhes do painel e som surround customizado.
-                            </p>
-                            <a href="#details-gold" class="btn-premium">Configurar Modelo</a>
-                        </div>
-                    </article>
 
-                    <article class="premium-item-card">
-                        <figure class="premium-figure">
-                            <div class="image-placeholder"></div>
-                        </figure>
-                        <div class="premium-details">
-                            <h3 class="premium-item-title">Diamond</h3>
-                            <p class="premium-item-spec">Híbrido de Alta Performance | 1100 cv</p>
-                            <p class="premium-item-description">
-                                Carroceria em fibra de carbono exposta com verniz brilhante. Engenharia diamantada para durabilidade e leveza insuperáveis.
-                            </p>
-                            <a href="#details-diamond" class="btn-premium">Configurar Modelo</a>
-                        </div>
-                    </article>
 
-                    <article class="premium-item-card">
-                        <figure class="premium-figure">
-                            <div class="image-placeholder"></div>
-                        </figure>
-                        <div class="premium-details">
-                            <h3 class="premium-item-title">Turquoise</h3>
-                            <p class="premium-item-spec">Elétrico Puro | Quad-Motor | 1200 cv</p>
-                            <p class="premium-item-description">
-                                Silencioso, implacável e ecologicamente consciente. Pintura exclusiva de efeito perolado que reflete a luz de forma hipnotizante.
-                            </p>
-                            <a href="#details-turquoise" class="btn-premium">Configurar Modelo</a>
-                        </div>
-                    </article>
+<section id="legacy" class="manifesto">
 
-                    <div class="premium-future-slot">
-                        <div class="slot-content">
-                            <span>+</span>
-                            <p>Futura Edição Premium em Desenvolvimento</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <p>
+        NOSSA FILOSOFIA
+    </p>
 
-        <section id="limited-editions" class="limited-editions-section">
-            <div class="section-container">
-                <header class="section-header">
-                    <p class="section-subtitle">Tiragens Numeradas</p>
-                    <h2 class="section-title">Limited Editions</h2>
-                </header>
+    <h2>
+        Não construímos carros.
+        Criamos lendas.
+    </h2>
 
-                <div class="grid-container limited-grid">
-                    <article class="limited-item-card">
-                        <figure class="limited-figure">
-                            <div class="image-placeholder"></div>
-                            <span class="badge-limit">Apenas 10 Unidades</span>
-                        </figure>
-                        <div class="limited-details">
-                            <h3 class="limited-item-title">Spirit</h3>
-                            <p class="limited-item-description">
-                                Criado para homenagear as lendas das pistas clássicas, o Spirit é focado na experiência mecânica mais pura, sem filtros eletrônicos invasivos.
-                            </p>
-                            <a href="#details-spirit" class="btn-limited">Solicitar Reserva</a>
-                        </div>
-                    </article>
+    <article>
 
-                    <article class="limited-item-card">
-                        <figure class="limited-figure">
-                            <div class="image-placeholder"></div>
-                            <span class="badge-limit">Apenas 15 Unidades</span>
-                        </figure>
-                        <div class="limited-details">
-                            <h3 class="limited-item-title">Vanguard</h3>
-                            <p class="limited-item-description">
-                                O ápice tecnológico da XENITH. Equipado com telemetria ativa integrada via satélite e aerodinâmica ativa inspirada na aviação caça.
-                            </p>
-                            <a href="#details-vanguard" class="btn-limited">Solicitar Reserva</a>
-                        </div>
-                    </article>
+        Cada XENITH nasce de uma obsessão:
+        transformar metal, fibra de carbono e tecnologia
+        em uma experiência única.
 
-                    <div class="limited-future-slot">
-                        <div class="slot-content">
-                            <span>+</span>
-                            <p>Próximo Lote de Engenharia Limitada</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        Poucas unidades.
+        Engenharia sem concessões.
+        Um legado criado para durar gerações.
 
-        <section id="speed-series" class="speed-series-section">
-            <div class="section-container">
-                <header class="section-header">
-                    <p class="section-subtitle">Velocidade Terminal</p>
-                    <h2 class="section-title">Speed Series</h2>
-                </header>
+    </article>
 
-                <div class="speed-series-container">
-                    <article class="speed-flagship-card">
-                        <figure class="speed-figure">
-                            <div class="image-placeholder"></div>
-                        </figure>
-                        <div class="speed-content">
-                            <h3 class="speed-title">XENITH Velocity-X</h3>
-                            <p class="speed-tagline">Projetado para quebrar a barreira dos 450 km/h.</p>
-                            <p class="speed-description">
-                                O modelo topo de linha da nossa Speed Series. Cada linha da carroceria foi otimizada em túnel de vento supersônico. Equipado com um propulsor de nova geração que redefine o conceito de aceleração longitudinal.
-                            </p>
-                            <div class="speed-specs">
-                                <div class="spec-col">
-                                    <span class="spec-value">0-100 km/h</span>
-                                    <span class="spec-label">1.8 segundos</span>
-                                </div>
-                                <div class="spec-col">
-                                    <span class="spec-value">V-Max</span>
-                                    <span class="spec-label">&gt; 460 km/h</span>
-                                </div>
-                            </div>
-                            <a href="#details-velocity" class="btn-speed">Explorar Speed Series</a>
-                        </div>
-                    </article>
+</section>
 
-                    <div class="speed-growth-zone">
-                        <div class="growth-card-placeholder">
-                            <h4>[ Modelo Speed II ]</h4>
-                          
+
+
+<section id="models" class="models">
+
+<h2>
+    MODELOS
+</h2>
+
+
+<div class="cards">
+
+
+<div class="car-card">
+
+    <div class="car-image spirit"></div>
+
+    <h3>
+        Spirit
+    </h3>
+
+    <p>
+        Limited Edition
+    </p>
+
+    <span>
+        Pure emotion. Pure performance.
+    </span>
+
+</div>
+
+
+
+<div class="car-card">
+
+    <div class="car-image vanguard"></div>
+
+    <h3>
+        Vanguard
+    </h3>
+
+    <p>
+        Limited Edition
+    </p>
+
+    <span>
+        The future of speed.
+    </span>
+
+</div>
+
+
+
+<div class="car-card">
+
+    <div class="car-image diamond"></div>
+
+    <h3>
+        Diamond
+    </h3>
+
+    <p>
+        Premium Edition
+    </p>
+
+    <span>
+        Crafted like a jewel.
+    </span>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<section class="quote">
+
+<h2>
+"Exclusividade não é ter mais.
+É ter algo que ninguém pode substituir."
+</h2>
+
+<p>
+XENITH
+</p>
+
+</section>
+
+
+
+<section id="contact" class="contact">
+
+<h2>
+Entre para o universo XENITH
+</h2>
+
+<p>
+Solicite informações sobre nossas próximas criações.
+</p>
+
+<button>
+Contato
+</button>
+
+</section>
+
+
+</main>
+
+
+<footer>
+
+<p>
+© 2026 XENITH Automotive.
+Performance. Precision. Legacy.
+</p>
+
+</footer>
+
+
+</body>
+</html>
